@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Shifting_Tides</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AstrologyECS" Version="1.0.0" />
+    <PackageReference Include="RogueSharp" Version="5.0.0-pre4" />
+    <PackageReference Include="SadConsole" Version="9.2.2" />
+    <PackageReference Include="SadConsole.Host.SFML" Version="9.2.1" />
+  </ItemGroup>
+
+</Project>
