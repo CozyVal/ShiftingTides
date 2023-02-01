@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using SadConsole;
 using SadRogue.Primitives;
-using AstrologyECS;
 using Console = SadConsole.Console;
 using SadConsole.Input;
 using System;
@@ -9,95 +8,90 @@ using SadConsole.Components;
 using SFML.Window;
 using static SFML.Graphics.Font;
 using SadConsole.Instructions;
-using Shattered_Tides;
+using Arch;
+using Arch.System;
+using Arch.Core;
 
 namespace Shattered_Tides
 {
-    //Rendering Systems
-    class RenderSystem : AstrologyECS.System
+
+    // Ai Systems
+
+
+
+    // Movement Systems
+    public class MovementSystem : BaseSystem<World, float>
     {
-        // This filter is used to pick and choose what kind of entities this system should operate on.
-        protected override ComponentFilter Filter => new ComponentFilter()
-            .AddNecessary(typeof(Literal_Position_Component))
-            .AddNecessary(typeof(Glyth_Component));
+        private QueryDescription KeyboardInput = new QueryDescription().WithAll<Literal_Position_Component, Can_Move_Component, Player_Component>();
+        public MovementSystem(World world) : base(world) { }
 
-
-        // This method is run on every entity that passes through the filter.
-        protected sealed override void OperateOnEntity(Entity entity)
+        public override void Update(in float deltatime)
         {
+            World.Query(in KeyboardInput, (ref Literal_Position_Component Position) =>
+            {
+                SadConsole.GameHost e = SadConsole.GameHost.Instance;
+                if (e.Keyboard.IsKeyPressed(Keys.W)) //Up
+                {
+                    if (Position.Y > 0)
+                    {
+                        Position.Y--;
+                    }
+                    else
+                    {
 
-        }
-    }
-    class Do_not_Render : AstrologyECS.System
-    {
-        // This filter is used to pick and choose what kind of entities this system should operate on.
-        protected override ComponentFilter Filter => new ComponentFilter()
-            .AddNecessary(typeof(Should_Not_Be_Rendered_Component));
+                    }
+                }
+                if (e.Keyboard.IsKeyPressed(Keys.A)) //Left
+                {
+                    if (Position.X > 0)
+                    {
+                        Position.X--;
+                    }
+                    else
+                    {
 
+                    }
+                }
+                if (e.Keyboard.IsKeyPressed(Keys.S)) //Down
+                {
+                    if (Position.Y < (Program.Height - 1))
+                    {
+                        Position.Y++;
+                    }
+                    else
+                    {
 
-        // This method is run on every entity that passes through the filter.
-        protected sealed override void OperateOnEntity(Entity entity)
-        {
-            entity.RemoveComponentsOfType<Can_Be_Seen_Component>();
-        }
-    }
+                    }
+                }
+                if (e.Keyboard.IsKeyPressed(Keys.D)) //Right
+                {
+                    if (Position.X < (Program.Width - 1))
+                    {
+                        Position.X++;
+                    }
+                    else
+                    {
 
-
-
-
-
-    // AI Systems
-    class FoVSystem : AstrologyECS.System
-    {
-        // This filter is used to pick and choose what kind of entities this system should operate on.
-        protected override ComponentFilter Filter => new ComponentFilter();
-
-
-        // This method is run on every entity that passes through the filter.
-        protected sealed override void OperateOnEntity(Entity entity)
-        {
-
-        }
-    }
-    class AISystem : AstrologyECS.System
-    {
-        // This filter is used to pick and choose what kind of entities this system should operate on.
-        protected override ComponentFilter Filter => new ComponentFilter();
-
-
-        // This method is run on every entity that passes through the filter.
-        protected sealed override void OperateOnEntity(Entity entity)
-        {
-
-        }
-    }
-    class MovementSystem : AstrologyECS.System
-    {
-        // This filter is used to pick and choose what kind of entities this system should operate on.
-        protected override ComponentFilter Filter => new ComponentFilter()
-            .AddNecessary(typeof(Can_Move_Component))
-            .AddNecessary(typeof(Player_Component));
-
-
-        // This method is run on every entity that passes through the filter.
-        protected sealed override void OperateOnEntity(Entity entity)
-        {
+                    }
+                }
+            });
 
         }
     }
 
 
-    //Combat Systems
-    class DamageSystem : AstrologyECS.System
+    // Render Systems
+    public class RenderSystem : BaseSystem<World, float>
     {
-        // This filter is used to pick and choose what kind of entities this system should operate on.
-        protected override ComponentFilter Filter => new ComponentFilter();
+        private QueryDescription Render = new QueryDescription().WithAll<Literal_Position_Component, Glyth_Component>();
+        public RenderSystem(World world) : base(world) { }
 
-
-        // This method is run on every entity that passes through the filter.
-        protected sealed override void OperateOnEntity(Entity entity)
+        public override void Update(in float deltatime)
         {
-
+            World.Query(in Render, (ref Literal_Position_Component Position, ref Glyth_Component Glyth) =>
+            {
+                Program.console1.SetGlyph(Position.X, Position.Y, Glyth.Glyth);
+            });
         }
     }
 }

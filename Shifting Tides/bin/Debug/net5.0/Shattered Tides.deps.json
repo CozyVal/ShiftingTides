@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "Shattered Tides/1.0.0": {
         "dependencies": {
+          "Arch": "1.1.9",
+          "Arch.System": "1.0.1",
           "AstrologyECS": "1.0.0",
           "RogueSharp": "5.0.0-pre4",
           "SadConsole": "9.2.2",
@@ -17,11 +19,49 @@
           "Shattered Tides.dll": {}
         }
       },
+      "Arch/1.1.9": {
+        "dependencies": {
+          "Collections.Pooled": "2.0.0-preview.27",
+          "CommunityToolkit.HighPerformance": "7.1.2",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "ZeroAllocJobScheduler": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Arch.dll": {
+            "assemblyVersion": "1.1.9.0",
+            "fileVersion": "1.1.9.0"
+          }
+        }
+      },
+      "Arch.System/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.1/Arch.System.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
       "AstrologyECS/1.0.0": {
         "runtime": {
           "lib/net5.0/AstrologyECS.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Collections.Pooled/2.0.0-preview.27": {
+        "runtime": {
+          "lib/netcoreapp3.0/Collections.Pooled.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "CommunityToolkit.HighPerformance/7.1.2": {
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.HighPerformance.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.2.1"
           }
         }
       },
@@ -316,6 +356,14 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
           }
         }
       },
@@ -840,6 +888,7 @@
           "Microsoft.NETCore.Targets": "1.1.0"
         }
       },
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1107,6 +1156,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "ZeroAllocJobScheduler/1.0.2": {
+        "dependencies": {
+          "Microsoft.Extensions.ObjectPool": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/JobScheduler.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
       }
     }
   },
@@ -1116,6 +1176,20 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Arch/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KML8O5oholtd/4x/nxPRYMFBWSORgXOkuRc+eFXYasqeBR4WPpSMcz4zUgBa7nHtDRirY6KDFjHRq1bQ4wKYGw==",
+      "path": "arch/1.1.9",
+      "hashPath": "arch.1.1.9.nupkg.sha512"
+    },
+    "Arch.System/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OSGTMMMbt4GbdJH7fuDG5jZSMzPCT9Xy4zcaXS22g8zid/Wzo5ckWmO85HmdWjRuH/T4A6LTN2cJwGV+djSH8Q==",
+      "path": "arch.system/1.0.1",
+      "hashPath": "arch.system.1.0.1.nupkg.sha512"
+    },
     "AstrologyECS/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1123,12 +1197,33 @@
       "path": "astrologyecs/1.0.0",
       "hashPath": "astrologyecs.1.0.0.nupkg.sha512"
     },
+    "Collections.Pooled/2.0.0-preview.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VS3uHc1GNamanS1i1hQ3PoZUddIagCswVMWvucAgqWwY2KVwgL2Q7raGu0hTqP/CWuROoq0RiNbIvu4ST1bMzg==",
+      "path": "collections.pooled/2.0.0-preview.27",
+      "hashPath": "collections.pooled.2.0.0-preview.27.nupkg.sha512"
+    },
+    "CommunityToolkit.HighPerformance/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rVNzu/HQd60e8sInhHLpboWF9PU/kgenTxKYScjU3EpGMlCnSifomqiJuDhN4MILVioIwpm7eiurQNpngbWpAw==",
+      "path": "communitytoolkit.highperformance/7.1.2",
+      "hashPath": "communitytoolkit.highperformance.7.1.2.nupkg.sha512"
+    },
     "CSFML/2.5.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-A3X+zyjAtvIQkpwCSS/F5fDOFRWeT+USIAK+DhGujNufF+qV1ty5cYGJihmmGeokX3yd89uZoNH8mcsmXCY/yw==",
       "path": "csfml/2.5.0",
       "hashPath": "csfml.2.5.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-udvKco0sAVgYGTBnHUb0tY9JQzJ/nPDiv/8PIyz69wl1AibeCDZOLVVI+6156dPfHmJH7ws5oUJRiW4ZmAvuuA==",
+      "path": "microsoft.extensions.objectpool/7.0.0",
+      "hashPath": "microsoft.extensions.objectpool.7.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -1557,6 +1652,13 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1717,6 +1819,13 @@
       "sha512": "sha512-PmOJ8m4fahLG9ESETKG73EgMzTM5O5gR/CYD1b7jQ5bMHG8dfNLzaiNouKR8jQQHXmzxMV5iPF96OeHF0rG4lA==",
       "path": "thesadrogue.primitives.sfml/1.0.0",
       "hashPath": "thesadrogue.primitives.sfml.1.0.0.nupkg.sha512"
+    },
+    "ZeroAllocJobScheduler/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2zQrqXKOUkpy3F0m0Hc69cFjblXAgTmrFSMpqVQt0V0QQknJrfmlaebyosA6N6qfC8klcqfKTWPb9H0xbnGbQw==",
+      "path": "zeroallocjobscheduler/1.0.2",
+      "hashPath": "zeroallocjobscheduler.1.0.2.nupkg.sha512"
     }
   }
 }

@@ -84,3 +84,95 @@ C:\Users\Isabelle\source\repos\Shifting Tides\Shifting Tides\obj\Debug\net5.0\re
 C:\Users\Isabelle\source\repos\Shifting Tides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.pdb
 C:\Users\Isabelle\source\repos\Shifting Tides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.genruntimeconfig.cache
 C:\Users\Isabelle\source\repos\Shifting Tides\Shifting Tides\obj\Debug\net5.0\refint\Shattered Tides.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Shattered Tides.exe
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Shattered Tides.deps.json
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Shattered Tides.runtimeconfig.json
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Shattered Tides.runtimeconfig.dev.json
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Shattered Tides.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Shattered Tides.pdb
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\AstrologyECS.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Newtonsoft.Json.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\RogueSharp.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\SadConsole.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\SadConsole.Host.SFML.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\SFML.Audio.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\SFML.Graphics.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\SFML.System.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\SFML.Window.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\TheSadRogue.Primitives.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\TheSadRogue.Primitives.SFML.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libcsfml-audio.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libcsfml-graphics.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libcsfml-system.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libcsfml-window.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-audio.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-audio.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-audio.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-graphics.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-graphics.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-graphics.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-system.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-system.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-system.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-window.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-window.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\alpine-x64\native\libsfml-window.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libcsfml-audio.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libcsfml-graphics.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libcsfml-system.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libcsfml-window.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-audio.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-audio.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-audio.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-graphics.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-graphics.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-graphics.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-system.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-system.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-system.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-window.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-window.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\debian-x64\native\libsfml-window.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libcsfml-audio.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libcsfml-graphics.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libcsfml-system.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libcsfml-window.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-audio.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-audio.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-audio.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-graphics.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-graphics.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-system.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-system.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-system.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-window.so
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-window.so.2.5
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\fedora-x64\native\libsfml-window.so.2.5.1
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x64\native\csfml-Audio.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x64\native\csfml-Graphics.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x64\native\csfml-System.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x64\native\csfml-Window.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x64\native\openal32.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x86\native\csfml-Audio.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x86\native\csfml-Graphics.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x86\native\csfml-System.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x86\native\csfml-Window.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\runtimes\win-x86\native\openal32.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.csproj.AssemblyReference.cache
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.GeneratedMSBuildEditorConfig.editorconfig
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.AssemblyInfoInputs.cache
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.AssemblyInfo.cs
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.csproj.CoreCompileInputs.cache
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.csproj.CopyComplete
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\refint\Shattered Tides.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.pdb
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\Shattered Tides.genruntimeconfig.cache
+H:\Git-Projects\ShiftingTides\Shifting Tides\obj\Debug\net5.0\ref\Shattered Tides.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Arch.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Arch.System.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Collections.Pooled.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\CommunityToolkit.HighPerformance.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\Microsoft.Extensions.ObjectPool.dll
+H:\Git-Projects\ShiftingTides\Shifting Tides\bin\Debug\net5.0\JobScheduler.dll

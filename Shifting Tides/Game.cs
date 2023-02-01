@@ -1,18 +1,19 @@
-﻿using System;
-using SadConsole;
-using SadConsole.Input;
+﻿using SadConsole;
 using SadRogue.Primitives;
 using Console = SadConsole.Console;
+using Arch.Core;
+using Arch.System;
 using AstrologyECS;
-using System.Collections.Generic;
+using SadConsole.Input;
 
 namespace Shattered_Tides
 {
-    class Program
+    public class Program
     {
         public const int Width = 200;
         public const int Height = 50;
         public static Console console1;
+        public static Group<float> _systems;
 
         private static void Main(string[] args)
         {
@@ -24,12 +25,20 @@ namespace Shattered_Tides
 
             // Start the game.
             Game.Instance.Run();
-
         }
+
 
         private static void Init()
         {
-            Characterinit();
+
+            World world = World.Create();
+            _systems = new Group<float>(
+                new RenderSystem(world),
+                new MovementSystem(world));
+            _systems.Initialize();
+
+
+            CharacterInit(world);
 
             ScreenObject container = new();
             Game.Instance.Screen = container;
@@ -41,58 +50,19 @@ namespace Shattered_Tides
             console1.IsFocused = true;
             console1.UseKeyboard = true;
 
-            EntityPool.AddSystem(new MovementSystem());
             Game.Instance.FrameUpdate += FrameUpdateEventRaise;
         }
 
         public static void FrameUpdateEventRaise(object sender, SadConsole.GameHost e)
         {
-            List<Entity> entities = EntityPool.GetEntities();
-            EntityPool.Tick();
-            foreach (Entity actor in entities)
-            {
-                console1.Clear();
-                if (actor.HasComponent<Can_Be_Seen_Component>())
-                {
-                    Keyboard(e, actor);
-                    console1.Print(actor.GetComponent<Literal_Position_Component>().X, actor.GetComponent<Literal_Position_Component>().Y, actor.GetComponent<Glyth_Component>().Glyth);
-                }
-            }
-
+            console1.Clear();
+            _systems.Update(0.05f);
         }
 
-        public static void Keyboard(SadConsole.GameHost e, Entity actor)
+        public static void CharacterInit(World world)
         {
-            if (e.Keyboard.IsKeyPressed(Keys.W)) //Up
-            {
-                actor.GetComponent<Literal_Position_Component>().Y -= 1;
-            }
-            if (e.Keyboard.IsKeyPressed(Keys.A)) //Left
-            {
-                actor.GetComponent<Literal_Position_Component>().X -= 1;
-            }
-            if (e.Keyboard.IsKeyPressed(Keys.S)) //Down
-            {
-                actor.GetComponent<Literal_Position_Component>().Y += 1;
-            }
-            if (e.Keyboard.IsKeyPressed(Keys.D)) //Right
-            {
-                actor.GetComponent<Literal_Position_Component>().X += 1;
-            }
-        }
-
-        public static void Characterinit()
-        {
-            Entity Player = new Entity();
-            Player.AddComponent(new Literal_Position_Component());
-            Player.AddComponent(new Player_Component());
-            Player.AddComponent(new Glyth_Component());
-            Player.AddComponent(new Can_Move_Component());
-            Player.AddComponent(new Can_Be_Seen_Component());
-            Player.GetComponent<Literal_Position_Component>().X = 10;
-            Player.GetComponent<Literal_Position_Component>().Y = 10;
-            Player.GetComponent<Glyth_Component>().Glyth = "@";
-            EntityPool.AddEntity(Player);
+            var Player = world.Create(new Literal_Position_Component { X = 5, Y = 5, Z = 0 }, new Player_Component { }, new Glyth_Component { Glyth = 64 }, new Can_Move_Component { });
+            var Enemy = world.Create(new Literal_Position_Component { X = 10, Y = 10, Z = 10 }, new Glyth_Component { Glyth = 35 }, new Can_Move_Component { });
         }
     }
 }

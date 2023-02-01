@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "N2VLc6XFI5s1i6kSLvkCD/6gpZEBQmF+ztTQgy80U2ERv6bGpO08qdu5eQ3y9/XgJ+nK9qFu3EMnpv5hDUzP1w==",
+  "dgSpecHash": "FR/Rdz8R6nfmvMdYHdICX1lEdkouCy0/fZTHMymkzF+o0XPs6Vhe1oNhimncqKI/IGAlObACq07L1oYlE2S3MA==",
   "success": true,
   "projectFilePath": "H:\\Git-Projects\\ShiftingTides\\Shifting Tides\\Shattered Tides.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Isabelle\\.nuget\\packages\\arch\\1.1.9\\arch.1.1.9.nupkg.sha512",
+    "C:\\Users\\Isabelle\\.nuget\\packages\\arch.system\\1.0.1\\arch.system.1.0.1.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\astrologyecs\\1.0.0\\astrologyecs.1.0.0.nupkg.sha512",
+    "C:\\Users\\Isabelle\\.nuget\\packages\\collections.pooled\\2.0.0-preview.27\\collections.pooled.2.0.0-preview.27.nupkg.sha512",
+    "C:\\Users\\Isabelle\\.nuget\\packages\\communitytoolkit.highperformance\\7.1.2\\communitytoolkit.highperformance.7.1.2.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\csfml\\2.5.0\\csfml.2.5.0.nupkg.sha512",
+    "C:\\Users\\Isabelle\\.nuget\\packages\\microsoft.extensions.objectpool\\7.0.0\\microsoft.extensions.objectpool.7.0.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
@@ -67,6 +72,7 @@
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Isabelle\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
@@ -89,7 +95,8 @@
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Isabelle\\.nuget\\packages\\thesadrogue.primitives\\1.1.1\\thesadrogue.primitives.1.1.1.nupkg.sha512",
-    "C:\\Users\\Isabelle\\.nuget\\packages\\thesadrogue.primitives.sfml\\1.0.0\\thesadrogue.primitives.sfml.1.0.0.nupkg.sha512"
+    "C:\\Users\\Isabelle\\.nuget\\packages\\thesadrogue.primitives.sfml\\1.0.0\\thesadrogue.primitives.sfml.1.0.0.nupkg.sha512",
+    "C:\\Users\\Isabelle\\.nuget\\packages\\zeroallocjobscheduler\\1.0.2\\zeroallocjobscheduler.1.0.2.nupkg.sha512"
   ],
   "logs": []
 }
